@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     "fashion",
     "clothing store",
   ],
+
+  verification: {
+    google: "GIgnX8qvbml2PY7ErXIoCD31D17Q7xob2CxmwKJN9Mo",
+  },
+
   authors: [
     {
       name: "AARIZ",
@@ -64,5 +69,4 @@ export default function RootLayout({
     </html>
   );
 }
-
 
