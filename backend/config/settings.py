@@ -62,11 +62,12 @@ ROOT_URLCONF = 'config.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-      "https://aariz-weld.vercel.app",
-      "https://aariz-git-master-aariz3.vercel.app",
+    "https://aariz-weld.vercel.app",
+    "https://aariz-git-master-aariz3.vercel.app",
     "https://aariz-1e42f1y1t-aariz3.vercel.app",
 ]
-# Templates
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 TEMPLATES = [
     {
