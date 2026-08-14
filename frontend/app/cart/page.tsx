@@ -13,7 +13,7 @@ type CartItem = {
   image?: string;
 };
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://zarrishkhan12.pythonanywhere.com";
 
 export default function CartPage() {
   const [cart, setCart] = useState<CartItem[]>([]);

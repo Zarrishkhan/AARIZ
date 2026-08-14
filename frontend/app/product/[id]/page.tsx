@@ -21,9 +21,8 @@ type Product = {
   images: ProductImage[];
 };
 
-const API_URL = "http://127.0.0.1:8000/api/products/";
-const BACKEND_URL = "http://127.0.0.1:8000";
-
+const API_URL = "https://zarrishkhan12.pythonanywhere.com/api/products/";
+const BACKEND_URL = "https://zarrishkhan12.pythonanywhere.com";
 const SIZES = ["XS", "S", "M", "L", "XL"];
 
 export default function ProductPage() {

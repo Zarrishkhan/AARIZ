@@ -11,7 +11,7 @@ type Order = {
   created_at: string;
 };
 
-const API_URL = "http://127.0.0.1:8000/api/orders/";
+const API_URL = "https://zarrishkhan12.pythonanywhere.com/api/products/";
 
 export default function OrderTrackingPage() {
   const [orderNumber, setOrderNumber] = useState("");

@@ -1,9 +1,18 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AARIZ",
-  description: "AARIZ Clothing",
+  title: {
+    default: "AARIZ | Modern Clothing",
+    template: "%s | AARIZ",
+  },
+  description:
+    "AARIZ — modern clothing designed for everyday confidence.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -13,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-[#f5f4f0] text-[#171717] antialiased">
+        {children}
+      </body>
     </html>
   );
 }

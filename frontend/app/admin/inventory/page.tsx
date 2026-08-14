@@ -11,7 +11,7 @@ type Product = {
   stock: number;
 };
 
-const API_URL = "http://127.0.0.1:8000/api/products/";
+const API_URL = "https://zarrishkhan12.pythonanywhere.com/api/products/";
 
 export default function InventoryPage() {
   const [products, setProducts] = useState<Product[]>([]);

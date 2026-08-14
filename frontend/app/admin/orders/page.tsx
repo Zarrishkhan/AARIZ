@@ -23,7 +23,7 @@ type Order = {
   items?: OrderItem[];
 };
 
-const API_URL = "http://127.0.0.1:8000/api/orders/";
+const API_URL = "https://zarrishkhan12.pythonanywhere.com/api/orders/";
 
 export default function OrdersPage() {
   const [orders, setOrders] = useState<Order[]>([]);

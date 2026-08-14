@@ -3,9 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000/api/products/";
+const API_URL =
+  "https://zarrishkhan12.pythonanywhere.com/api/products/";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL =
+  "https://zarrishkhan12.pythonanywhere.com";
 
 export default function NewProductPage() {
   const [name, setName] = useState("");

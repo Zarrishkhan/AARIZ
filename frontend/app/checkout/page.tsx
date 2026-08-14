@@ -15,7 +15,7 @@ type CartItem = {
 const CART_KEY = "aariz-cart";
 
 const ORDERS_API =
-  "http://127.0.0.1:8000/api/orders/";
+  "https://zarrishkhan12.pythonanywhere.com/api/orders/";
 
 export default function CheckoutPage() {
   const [cart, setCart] = useState<CartItem[]>([]);

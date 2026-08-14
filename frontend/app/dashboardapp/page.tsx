@@ -20,7 +20,7 @@ type Product = {
   image?: string;
 };
 
-const API_URL = "http://127.0.0.1:8000/api/products/";
+const API_URL = "https://zarrishkhan12.pythonanywhere.com/api/products/";
 
 export default function DashboardPage() {
   const [active, setActive] = useState("All Products");
