@@ -1,3 +1,4 @@
+// Regenerate sitemap with live products
 import type { MetadataRoute } from "next";
 
 const API_URL =
